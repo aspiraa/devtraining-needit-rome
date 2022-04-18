@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>e57b73f31bf601102e23877ddc4bcb61</answer>
+        <condition table="var__m_sys_decision_input_9c4cbff31bf601102e23877ddc4bcb03">u_request_type=legal^u_priority=1^ORu_priority=2^EQ<item display_value="Legal" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/>
+            <item display_value="1 - Critical" endquery="false" field="u_priority" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="2 - High" endquery="false" field="u_priority" goto="false" newquery="false" operator="=" or="true" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Assignee Category Decision">9c4cbff31bf601102e23877ddc4bcb03</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_9c4cbff31bf601102e23877ddc4bcb03</input_table>
+        <label> High Priority Legal</label>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 23:12:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7db4c0c81bc701102e23877ddc4bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> High Priority Legal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_decision_question_7db4c0c81bc701102e23877ddc4bcb38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 23:12:03</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>97d09393db767f0452cec5970596195a</instance_id>
+        <instance_name>dev89385</instance_name>
+        <name>sys_decision_question_7db4c0c81bc701102e23877ddc4bcb38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>e57b73f31bf601102e23877ddc4bcb61</answer><condition table="var__m_sys_decision_input_9c4cbff31bf601102e23877ddc4bcb03">u_request_type=legal^u_priority=1^ORu_priority=2^EQ<item display_value="Legal" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/><item display_value="1 - Critical" endquery="false" field="u_priority" goto="false" newquery="false" operator="=" or="false" value="1"/><item display_value="2 - High" endquery="false" field="u_priority" goto="false" newquery="false" operator="=" or="true" value="2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="Assignee Category Decision">9c4cbff31bf601102e23877ddc4bcb03</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_9c4cbff31bf601102e23877ddc4bcb03</input_table><label> High Priority Legal</label><order>100</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-18 23:12:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7db4c0c81bc701102e23877ddc4bcb38</sys_id><sys_mod_count>0</sys_mod_count><sys_name> High Priority Legal</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_decision_question_7db4c0c81bc701102e23877ddc4bcb38</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-18 23:12:03</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-857579550</payload_hash>
+        <record_name> High Priority Legal</record_name>
+        <reverted_from/>
+        <source>16bffb461b3241102e23877ddc4bcbdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 23:12:03</sys_created_on>
+        <sys_id>b9b4c0c81bc701102e23877ddc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1803ef287a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 23:12:03</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>f1b4c0c8d8c701109fc240bd78f7fc3c</update_guid>
+        <update_guid_history>f1b4c0c8d8c701109fc240bd78f7fc3c:-857579550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 23:12:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>166fec3d7fa743c0b91af1ec31be3464</sys_id>
+        <sys_metadata>7db4c0c81bc701102e23877ddc4bcb38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> High Priority Legal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_decision_question_7db4c0c81bc701102e23877ddc4bcb38</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_7db4c0c81bc701102e23877ddc4bcb38">b9b4c0c81bc701102e23877ddc4bcb3c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 23:12:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
